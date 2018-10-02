@@ -12,7 +12,7 @@ public:
 
   /*
   * Coefficients
-  */ 
+  */
   double Kp;
   double Ki;
   double Kd;
@@ -41,6 +41,7 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
+
 };
 
 #endif /* PID_H */
